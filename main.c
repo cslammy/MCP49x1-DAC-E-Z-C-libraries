@@ -7,6 +7,7 @@
 
 #include <avr/io.h>
 #include "MCP4911.h"
+#include "MCP4921.h"
 #include "spi3.h"
 #include "stdio_setup.h"
 
