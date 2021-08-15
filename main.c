@@ -1,6 +1,6 @@
 /*
  * walker10bit.c
- *
+ *  EXAMPLE USE OF THE LIBRARIES.
  * Created: 8/13/2021 5:26:39 PM
  * Author : audiodiWHY
  */ 
@@ -30,6 +30,11 @@ int main(void)
 		write4911(x);
 	   }
 	
+	   	   for (uint16_t x = 0; x < 4097; x++)
+	   {
+		write4921(x);
+	   } 
+	    
 	}
 }
 
