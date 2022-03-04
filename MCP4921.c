@@ -25,7 +25,7 @@ void write4921(uint16_t data)
 	
     {
 	
-        // code assumes LDAC (4911 pin 5) tied to ground
+        // code assumes LDAC (4921 pin 5) tied to ground
 		uint16_t data12 = data & 0b0000111111111111; // we only want 12 LSBs
 		
 		
