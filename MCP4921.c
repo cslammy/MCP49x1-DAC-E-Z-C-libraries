@@ -11,7 +11,7 @@ spi_mode(0);
 
 
 
- *  Author: clamm
+ *  Author: audioDIWHY
 */
 
 #include <stdio.h>
