@@ -9,7 +9,7 @@
 #ifndef MCP4921_H_
 #define MCP4921_H_
 
-void write4921(uint8_t MSB, uint8_t LSB);
+void write4921(uint16_t data;
 
 
 
