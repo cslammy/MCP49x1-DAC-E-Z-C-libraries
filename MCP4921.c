@@ -51,7 +51,7 @@ void write4921(uint16_t data)
 	    
 	     
 
-	    //send the data.  4911 can eat 16 bit xfers.
+	    //send the data.  4921 can eat 16 bit xfers.
 	    SELECT();
 
         SPI_SendByte(MSB);
