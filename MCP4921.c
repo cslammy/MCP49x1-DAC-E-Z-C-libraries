@@ -34,7 +34,7 @@ void write4921(uint16_t data)
  
 		
 		
-	    // for 4911, you send 2 bytes.  bit 15 is always zero,
+	    // for 4921, you send 2 bytes.  bit 15 is always zero,
 	    // bits 14,13,12 are control, 11-10-9-8 are MSBs data 
 		//  7 6 5 4 3 2 1 0 are LSB data
 	    
